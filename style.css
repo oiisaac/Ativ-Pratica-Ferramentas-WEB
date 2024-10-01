@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: #777777;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+.barra-lateral {
+    width: 25%;
+    background-image: url(imagens/background.jpg); 
+    background-size: cover;
+    background-position: top left;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 170%;
+    padding: 20px;
+    text-align: center;
+}
+
+.barra-lateral img {
+    border-radius: 50%;
+    width: 190px;
+    margin-bottom: 20px;
+}
+
+.barra-lateral h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.barra-lateral nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.barra-lateral nav ul li {
+    margin: 20px 0;
+}
+
+.barra-lateral nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: relative;
+    border-bottom: 1px dashed #fff; 
+}
+
+.barra-lateral nav ul li a:hover {
+    color: #000000;
+    background-color: #e6e6e6;
+}
+
+.barra-lateral .links-sociais {
+    margin-top: 50px;
+}
+
+.barra-lateral .links-sociais a {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.barra-lateral .links-sociais a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    margin-left: 30%;
+    padding: 20px;
+    width: 75%;
+    padding-top: 75px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.secao {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.itens-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itens-portfolio .item {
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.linha-do-tempo {
+    position: relative;
+    padding: 20px 0;
+}
+
+.item-linha-do-tempo {
+    margin: 20px 0;
+    position: relative;
+}
+
+.item-linha-do-tempo::before {
+    content: '';
+    position: absolute;
+    left: 20px; 
+    width: 10px;
+    height: 10px; 
+    background: #00311e; 
+    border-radius: 50%;
+    top: 10px;
+}
+
+.conteudo-linha-do-tempo {
+    margin-left: 40px; 
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.conteudo-linha-do-tempo h3 {
+    margin: 0;
+}
+
+.conteudo-linha-do-tempo p {
+    margin: 5px 0;
+}
